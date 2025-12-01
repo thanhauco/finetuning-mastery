@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Training artifacts
+outputs/
+checkpoints/
+runs/
+wandb/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+merged-*/
+adapter-*/
+
+# Caches
+.cache/
+.hf_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
