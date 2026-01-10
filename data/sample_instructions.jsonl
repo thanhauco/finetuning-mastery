@@ -1,0 +1,20 @@
+{"instruction": "Summarize the following text in one sentence.", "input": "The mitochondria is the powerhouse of the cell. It generates most of the cell's supply of ATP, used as a source of chemical energy.", "output": "Mitochondria produce most of a cell's ATP energy."}
+{"instruction": "Translate to French.", "input": "Good morning, how are you?", "output": "Bonjour, comment allez-vous ?"}
+{"instruction": "What is the capital of Japan?", "input": "", "output": "The capital of Japan is Tokyo."}
+{"instruction": "Write a haiku about the ocean.", "input": "", "output": "Waves crash on the shore,\nendless blue meets the bright sky,\nsalt wind whispers peace."}
+{"instruction": "Fix the grammar in this sentence.", "input": "She don't likes apples.", "output": "She doesn't like apples."}
+{"instruction": "Convert this list to JSON.", "input": "name: Ada, role: engineer, level: senior", "output": "{\"name\": \"Ada\", \"role\": \"engineer\", \"level\": \"senior\"}"}
+{"instruction": "Explain recursion to a beginner.", "input": "", "output": "Recursion is when a function calls itself to solve smaller pieces of a problem until it reaches a simple base case."}
+{"instruction": "Give three tips for writing clean code.", "input": "", "output": "1) Use clear, descriptive names. 2) Keep functions small and focused. 3) Write tests and avoid duplication."}
+{"instruction": "Classify the sentiment as positive or negative.", "input": "This movie was a complete waste of time.", "output": "Negative"}
+{"instruction": "What is 17 multiplied by 6?", "input": "", "output": "17 multiplied by 6 is 102."}
+{"instruction": "Rewrite this sentence to be more formal.", "input": "Hey, can you send me that file ASAP?", "output": "Could you please send me that file at your earliest convenience?"}
+{"instruction": "List the planets in order from the sun.", "input": "", "output": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."}
+{"instruction": "Write a Python function that returns the factorial of n.", "input": "", "output": "def factorial(n):\n    return 1 if n <= 1 else n * factorial(n - 1)"}
+{"instruction": "Define photosynthesis.", "input": "", "output": "Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen."}
+{"instruction": "Suggest a name for a coffee shop.", "input": "", "output": "Daily Grind Cafe."}
+{"instruction": "Convert 100 degrees Fahrenheit to Celsius.", "input": "", "output": "100 degrees Fahrenheit is about 37.8 degrees Celsius."}
+{"instruction": "Give an antonym for 'rapid'.", "input": "", "output": "Slow."}
+{"instruction": "Write a SQL query to select all rows from a table named users.", "input": "", "output": "SELECT * FROM users;"}
+{"instruction": "Explain what an API is in one sentence.", "input": "", "output": "An API is a defined interface that lets two software programs communicate with each other."}
+{"instruction": "Correct the spelling.", "input": "I recieved the package yesterdai.", "output": "I received the package yesterday."}
