@@ -26,49 +26,49 @@ Modules are released in order; check the status column to see what's runnable to
 ## Phase 1 — Foundations
 
 ```
-[~] 01 Foundations
+[x] 01 Foundations
     [x] README
-    [ ] 01_hello_finetuning.py .. raw PyTorch training loop (CPU-friendly)
-    [ ] 02_tokenization.py ...... tokens, special tokens, chat templates
-    [ ] 03_what_changes.py ...... inspect params & a single gradient step
+    [x] 01_hello_finetuning.py .. raw PyTorch training loop (CPU-friendly)
+    [x] 02_tokenization.py ...... tokens, special tokens, chat templates
+    [x] 03_what_changes.py ...... inspect params & a single gradient step
 ```
 
 ## Phase 2 — Data
 
 ```
-[ ] 02 Data Preparation
-    [ ] clean & dedupe
-    [ ] chat-template formatting
-    [ ] sequence packing
-    [ ] train/val/test splitting
+[x] 02 Data Preparation
+    [x] clean & dedupe
+    [x] chat-template formatting
+    [x] sequence packing
+    [x] train/val/test splitting
 ```
 
 ## Phase 3 — Core Fine-Tuning Methods
 
 ```
-[ ] 03 Full Fine-Tuning ....... Trainer API, all weights
-[ ] 04 LoRA / PEFT ............ adapters, target modules, merging
-[ ] 05 QLoRA / Quantization ... 4-bit NF4 on a single GPU
+[x] 03 Full Fine-Tuning ....... Trainer API, all weights
+[x] 04 LoRA / PEFT ............ adapters, target modules, merging
+[x] 05 QLoRA / Quantization ... 4-bit NF4 on a single GPU
 ```
 
 ## Phase 4 — Behavior & Alignment
 
 ```
-[ ] 06 Instruction / Chat SFT . SFTTrainer, completion-only loss
-[ ] 07 Preference Optimization  DPO, ORPO (RLHF successors)
+[x] 06 Instruction / Chat SFT . SFTTrainer, completion-only loss
+[x] 07 Preference Optimization  DPO, ORPO (RLHF successors)
 ```
 
 ## Phase 5 — Quality & Production
 
 ```
-[ ] 08 Evaluation ............. perplexity, task metrics, LLM-as-judge
-[ ] 09 Deployment & Serving ... merge, quantize, vLLM server
+[x] 08 Evaluation ............. perplexity, task metrics, LLM-as-judge
+[x] 09 Deployment & Serving ... merge, quantize, vLLM server
 ```
 
 ## Phase 6 — Scaling Up
 
 ```
-[ ] 10 Advanced ............... FSDP, DeepSpeed ZeRO-3, long-context, packing
+[x] 10 Advanced ............... FSDP, DeepSpeed ZeRO-3, long-context, packing
 ```
 
 ---
